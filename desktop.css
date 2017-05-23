@@ -1,0 +1,164 @@
+         /*CSS RESET 結束*/
+        
+@media screen and (min-width:1000px){
+        .full-width {
+            width: 100%;
+        }
+        
+        .fixed-width {
+            width: 1000px;
+            margin: auto;
+        }
+        
+        .col-1,
+        .col-2,
+        .col-3,
+        .col-4 {
+            padding-left: 20px;
+            padding-right: 20px;
+            margin-left: 10px;
+            margin-right: 10px;
+        }
+        
+        .col-2,
+        .col-3,
+        .col-4 {
+            float: left;
+        }
+        
+        .col-1 {
+            width: 980px;
+        }
+        
+        .col-2 {
+            width: 480px;
+        }
+        
+        .col-3 {
+            width: calc(1000px/3 - 20px);
+        }
+        
+        .col-4 {
+            width: 230px;
+        }
+        
+        nav {
+            height: 50px;
+            background-color: #333;
+        }
+        
+        nav .logo {
+            float: left;
+            width: 120px;
+            height: 50px;
+            background-color: #989898;
+        }
+        
+        nav .menu {
+            float: right;
+        }
+        
+        nav li {
+            list-style: none;
+            float: left;
+        }
+        
+        nav .menu a {
+            color: #eee;
+            text-decoration: none;
+            padding-left: 15px;
+            padding-right: 15px;
+            line-height: 50px;
+            
+/*            transition: color .3s;*/
+            transition: all .3s;
+        }
+        nav .menu a:hover {
+            color: #fa0;
+        }
+        .btn {
+            display: inline-block;
+            padding: 6px 20px;
+            text-decoration: none;
+            background-color: #222;
+            color: #eee;
+/*            transition: color .5s,background-color .5s;*/
+            transition: all .3s;
+        }
+        .btn:hover {
+            background-color: #aaa;
+            color: #222;
+        }
+        .btn-inverse {
+            display: inline-block;
+            padding: 6px 20px;
+            text-decoration: none;
+            background-color: #eee;
+            color: #222;
+        }
+        header {
+            padding-top: 300px;
+            padding-bottom: 300px;
+            /*            height: 600px; */
+            background-image: url(images/header.jpg);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        
+        header h1 {
+            text-align: center;
+            color: #fff;
+        }
+        
+        #about,#portfolio,#service{
+            padding-top: 150px;
+            padding-bottom: 150px;
+        }
+        #portfolio {
+            background-color: #b1b1b1;
+/*            padding-top: 150px;*/
+/*            padding-bottom: 120px;*/
+        }
+        #portfolio .fixed-width:nth-of-type(1) {
+            margin-bottom: 30px;
+        }
+        #service {
+            text-align: center;
+        }
+        #service p {
+            margin-top: 20px;
+            margin-bottom: 20px;
+        }
+        .title {
+            text-align: center;
+            font-size: 36px;
+            margin-bottom: 40px;
+            letter-spacing: 2px;
+        }
+        footer {
+            background-color: #222;
+            color: #eee;
+            padding: 20px 0;
+        }
+        footer .sns {
+            text-align: right;
+        }
+        footer .sns a {
+            color: #eee;
+            text-decoration: none;
+            margin-left: 20px;
+        }
+        footer .sns a:nth-of-type(1):hover {
+            color: #0057af;
+        }
+        footer .sns a:nth-of-type(2):hover {
+            color: #623203;
+        }
+        footer .sns a:nth-of-type(3):hover {
+            color: #ff6868;
+        }
+        footer .sns a:nth-of-type(4):hover {
+            color: #00f5ff;
+        }
+}
